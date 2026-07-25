@@ -2,118 +2,66 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Everett Xu writes about software, mathematics, books, and the small systems that make creative work possible.">
-  <meta name="theme-color" content="#f4f0e7">
-  <title>Everett Xu — Notes on making & learning</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Website of Everett Xu">
+  <meta name="theme-color" content="#2e3440">
+  <title>Home | Everett Xu</title>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="alternate" type="application/rss+xml" title="Everett Xu" href="/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="Everett Xu's blog RSS feed" href="/feed.xml">
   <link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
-  <a class="skip-link" href="#writing">Skip to writing</a>
-  <header class="site-header wrap">
-    <a class="wordmark" href="/" aria-label="Everett Xu, home">
-      <span class="wordmark-mark" aria-hidden="true">E</span>
-      <span>Everett Xu</span>
-    </a>
-    <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
-      <span>Menu</span><span aria-hidden="true">↘</span>
-    </button>
-    <nav id="site-nav" aria-label="Primary">
-      <a class="active" href="/#writing">Writing</a>
-      <a href="/about/">About</a>
-      <a href="https://github.com/kiruko1025">GitHub <span aria-hidden="true">↗</span></a>
-    </nav>
-  </header>
+  <div class="layout">
+    <div class="page-layout">
+      <aside class="sidebar">
+        <a class="identity" href="/">
+          <img class="avatar" src="/assets/profile.jpg" width="60" height="60" alt="A library aisle">
+          <div class="name">Everett Xu</div>
+        </a>
+        <div>Student at the University of Miami. Interested in computer science, mathematics, software development, books, and design.</div>
+        <div class="socials">
+          <span><a href="https://github.com/kiruko1025">Github</a></span>
+          <span><a href="https://www.linkedin.com/in/everett-xu-5934a1292/">LinkedIn</a></span>
+          <span><a href="https://everett.moe">Notes</a></span>
+          <span><a href="/feed.xml">RSS</a></span>
+          <span><a href="mailto:hello@everett.boo">@</a></span>
+        </div>
+        <nav aria-label="Primary">
+          <ul>
+            <li><a class="active" href="/">Articles</a></li>
+            <li><a href="https://everett.moe">Lecture Notes</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="mailto:hello@everett.boo">Contact</a></li>
+          </ul>
+        </nav>
+      </aside>
 
-  <main>
-    <section class="hero wrap">
-      <p class="eyebrow">Miami, Florida · 25.7617° N</p>
-      <h1>Notes on <em>making</em><br>and learning.</h1>
-      <div class="hero-copy">
-        <p>I’m Everett, a student of computer science and mathematics. I write about software, ideas, and the useful friction between the two.</p>
-        <a class="text-link" href="/about/">A little more about me <span aria-hidden="true">→</span></a>
-      </div>
-      <div class="orbit" aria-hidden="true">
-        <svg viewBox="0 0 220 220">
-          <ellipse cx="110" cy="110" rx="98" ry="43"/>
-          <ellipse cx="110" cy="110" rx="98" ry="43" transform="rotate(60 110 110)"/>
-          <ellipse cx="110" cy="110" rx="98" ry="43" transform="rotate(120 110 110)"/>
-          <circle cx="110" cy="110" r="8"/>
-          <circle cx="206" cy="110" r="5"/>
-        </svg>
-      </div>
-    </section>
-
-    <section class="writing wrap" id="writing">
-      <div class="section-heading">
-        <p class="eyebrow">Selected writing</p>
-        <p class="issue">Vol. I — 2026</p>
-      </div>
-
-      <div class="post-list">
-        <article class="post-card featured">
-          <a class="post-link" href="/writing/learning-in-public/">
-            <div class="post-meta">
-              <time datetime="2026-07-25">Jul 25, 2026</time>
-              <span>6 min read</span>
-            </div>
-            <div class="post-body">
-              <p class="post-number">01</p>
-              <h2>Learning in public, without performing</h2>
-              <p>A field note on sharing unfinished ideas, keeping a trail of questions, and letting curiosity—not metrics—shape the work.</p>
-              <span class="read-more">Read essay <span aria-hidden="true">↗</span></span>
-            </div>
+      <main class="article-list">
+        <article>
+          <a href="/writing/learning-in-public/">
+            <div class="meta">Jul <b>25</b>, <b>2026</b> • <b>6</b> min. read</div>
+            <h2>Learning in public, without performing</h2>
+            <p>A field note on sharing unfinished ideas, keeping a trail of questions, and letting curiosity—not metrics—shape the work.</p>
           </a>
         </article>
-
-        <article class="post-card">
-          <a class="post-link" href="/writing/small-tools/">
-            <div class="post-meta">
-              <time datetime="2026-06-14">Jun 14, 2026</time>
-              <span>4 min read</span>
-            </div>
-            <div class="post-body">
-              <p class="post-number">02</p>
-              <h2>In praise of small tools</h2>
-              <p>The best software often does one modest thing, stays out of the way, and gives a little agency back to its user.</p>
-              <span class="read-more">Read essay <span aria-hidden="true">↗</span></span>
-            </div>
+        <article>
+          <a href="/writing/small-tools/">
+            <div class="meta">Jun <b>14</b>, <b>2026</b> • <b>4</b> min. read</div>
+            <h2>In praise of small tools</h2>
+            <p>The best software often does one modest thing, stays out of the way, and gives a little agency back to its user.</p>
           </a>
         </article>
-
-        <article class="post-card">
-          <a class="post-link" href="/writing/reading-with-a-pencil/">
-            <div class="post-meta">
-              <time datetime="2026-05-03">May 3, 2026</time>
-              <span>5 min read</span>
-            </div>
-            <div class="post-body">
-              <p class="post-number">03</p>
-              <h2>Reading with a pencil</h2>
-              <p>A lightweight method for turning a book from something consumed into something you can think alongside.</p>
-              <span class="read-more">Read essay <span aria-hidden="true">↗</span></span>
-            </div>
+        <article>
+          <a href="/writing/reading-with-a-pencil/">
+            <div class="meta">May <b>3</b>, <b>2026</b> • <b>5</b> min. read</div>
+            <h2>Reading with a pencil</h2>
+            <p>A lightweight method for turning a book from something consumed into something you can think alongside.</p>
           </a>
         </article>
-      </div>
-    </section>
-
-    <section class="newsletter wrap" aria-labelledby="newsletter-title">
-      <div>
-        <p class="eyebrow">Occasional letters</p>
-        <h2 id="newsletter-title">New notes, quietly delivered.</h2>
-      </div>
-      <p>No algorithm, no schedule, no clutter. Follow along through <a href="/feed.xml">RSS</a>.</p>
-    </section>
-  </main>
-
-  <footer class="site-footer wrap">
-    <p>© <span data-year>2026</span> Everett Xu</p>
-    <p>Typeset with care. Built for the long web.</p>
-    <a href="#top">Back to top ↑</a>
-  </footer>
+      </main>
+    </div>
+    <footer>© <span data-year>2026</span> All rights reserved.</footer>
+  </div>
   <script src="/assets/site.js"></script>
 </body>
 </html>
