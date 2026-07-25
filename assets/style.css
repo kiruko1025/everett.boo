@@ -52,6 +52,16 @@ footer { width: 100%; max-width: 648px; margin: 0 auto; padding: 1em; color: #d8
 /* Article and secondary pages */
 .site-header { display: none; }
 .page-main { width: min(680px, calc(100% - 2em)); margin: 3em auto; }
+.article-back {
+  display: inline-block;
+  margin: 0 0 1.8em;
+  padding: .35em .5em .35em 0;
+  color: #4c566a;
+  font-size: 80%;
+  font-weight: 600;
+}
+.article-back span { border-bottom: 1px solid transparent; }
+.article-back:hover span { border-bottom-color: #4c566a; }
 .article-header { padding: 1em 0 2em; }
 .article-header .eyebrow, .article-deck .eyebrow { font-size: 80%; font-weight: 700; font-variant: small-caps; }
 .article-header h1 { margin: .2em 0; }
