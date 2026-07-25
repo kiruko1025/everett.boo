@@ -14,6 +14,7 @@ blockquote{margin:1.4rem 0 1.4rem -1.4rem;padding-left:1.4rem;border-left:2px so
 .page-main{width:100%;max-width:680px;margin:0 auto;padding:1em;flex:1}
 .article-meta{display:flex;flex-wrap:wrap;justify-content:space-between;border-bottom:1px solid #4c566a;font-size:80%;font-weight:700;font-variant:small-caps;text-transform:lowercase}
 .article-meta>span,.article-meta a{padding:.5em 0}
+.article-meta b{font-size:80%}
 .article-title{width:100%;margin:2.8rem 0;text-align:center}
 .article-content h2,.article-content h3{line-height:1.2;margin-bottom:-1rem}
 .article-content h2{margin-top:2em;font-size:1.4rem}
