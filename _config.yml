@@ -1,0 +1,9 @@
+title: Everett Xu
+description: Notes on computer science, mathematics, software, books, and design.
+url: https://everett.boo
+markdown: kramdown
+permalink: pretty
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

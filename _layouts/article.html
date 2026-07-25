@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="{{ page.description }}">
+  <meta name="theme-color" content="#2e3440">
+  <title>{{ page.title }} | Everett Xu</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/rss+xml" title="Everett Xu's blog RSS feed" href="/feed.xml">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <main class="page-main">
+    <div class="article-meta">
+      <a href="/">← All articles</a>
+      <span>{{ page.display_date }} • <b>{{ page.reading_time }}</b> Min Read</span>
+    </div>
+    <header class="article-header">
+      <h1>{{ page.title }}</h1>
+    </header>
+    <article class="article-content">
+      <p><em>{{ page.description }}</em></p>
+
+      <nav class="toc" aria-label="Table of contents">
+        <ul>
+          {% for item in page.toc %}
+          <li><a href="#{{ item.id }}">{{ item.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+
+      {{ content }}
+
+      <nav class="article-nav" aria-label="More articles">
+        <ul>
+          {% if page.previous_url %}
+          <li class="prev"><a href="{{ page.previous_url }}">← {{ page.previous_title }}</a></li>
+          {% endif %}
+          {% if page.next_url %}
+          <li class="next"><a href="{{ page.next_url }}">{{ page.next_title }} →</a></li>
+          {% endif %}
+        </ul>
+      </nav>
+
+      <div class="article-bio">
+        <img src="/assets/profile.jpg" width="60" height="60" alt="">
+        <div>Written by <a href="https://everett.moe"><strong>Everett Xu</strong></a>, a student interested in computer science, mathematics, software development, books, and design.</div>
+      </div>
+    </article>
+  </main>
+  <footer>© {{ "now" | date: "%Y" }} All rights reserved.</footer>
+</body>
+</html>
