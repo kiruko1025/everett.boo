@@ -1,12 +1,33 @@
 title: Everett Xu
 description: Notes on computer science, mathematics, software, books, and design.
 url: https://everett.boo
+baseurl: ""
+
+author:
+  name: Everett Xu
+  url: https://everett.moe
+
+# Register this shortname at https://disqus.com/admin/create/
+disqus: everett-boo
+
+remote_theme: chesterhow/tale
 markdown: kramdown
-permalink: pretty
+permalink: /:year-:month-:day/:title
+paginate: 5
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+include:
+  - _pages
+
 exclude:
-  - README.md
   - Gemfile
   - Gemfile.lock
+  - README.md
   - vendor
   - .bundle
   - _site
