@@ -12,7 +12,7 @@ p{margin:1.4rem 0}
 h1{font-size:230%;line-height:1.2}
 blockquote{margin:1.4rem 0 1.4rem -1.4rem;padding-left:1.4rem;border-left:2px solid #2e3440;font-style:italic}
 .page-main{width:100%;max-width:680px;margin:0 auto;padding:1em;flex:1}
-.article-meta{display:flex;flex-wrap:wrap;justify-content:space-between;border-top:1px solid #4c566a;border-bottom:1px solid #4c566a;font-size:80%;font-weight:700;font-variant:small-caps;text-transform:lowercase}
+.article-meta{display:flex;flex-wrap:wrap;justify-content:space-between;border-bottom:1px solid #4c566a;font-size:80%;font-weight:700;font-variant:small-caps;text-transform:lowercase}
 .article-meta>span,.article-meta a{padding:.5em 0}
 .article-title{width:100%;margin:2.8rem 0;text-align:center}
 .article-content h2,.article-content h3{line-height:1.2;margin-bottom:-1rem}
@@ -29,8 +29,7 @@ blockquote{margin:1.4rem 0 1.4rem -1.4rem;padding-left:1.4rem;border-left:2px so
 .article-nav a{display:inline-block;padding:.5em 0}
 .article-nav .next{padding-left:1em;text-align:right}
 .article-bio{display:flex;align-items:center;padding:1em;border-top:1px solid #4c566a;border-bottom:1px solid #4c566a;font-size:80%}
-.article-bio img{width:60px;height:60px;flex-shrink:0;border-radius:50%;object-fit:cover}
-.article-bio div{padding-left:1em}
+.article-bio div{padding-left:0}
 .comments{margin-top:3rem;padding-top:2rem;border-top:1px solid #4c566a}
 footer{width:100%;max-width:648px;margin:0 auto;padding:1em;color:#d8dee9;text-align:center;font-size:80%}
 @media(max-width:1080px){.toc{display:none}}

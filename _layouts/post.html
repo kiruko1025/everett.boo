@@ -34,17 +34,16 @@
 
       <nav class="article-nav" aria-label="More articles">
         <ul>
-          {% if page.previous %}
-          <li class="prev"><a href="{{ page.previous.url }}">← {{ page.previous.title }}</a></li>
-          {% endif %}
           {% if page.next %}
-          <li class="next"><a href="{{ page.next.url }}">{{ page.next.title }} →</a></li>
+          <li class="prev"><a href="{{ page.next.url }}">← {{ page.next.title }}</a></li>
+          {% endif %}
+          {% if page.previous %}
+          <li class="next"><a href="{{ page.previous.url }}">{{ page.previous.title }} →</a></li>
           {% endif %}
         </ul>
       </nav>
 
       <div class="article-bio">
-        <img src="/assets/profile.jpg" width="60" height="60" alt="">
         <div>Written by <a href="https://everett.moe"><strong>Everett Xu</strong></a>, a student interested in computer science, mathematics, software development, books, and design.</div>
       </div>
 
